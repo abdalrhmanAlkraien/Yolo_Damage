@@ -1,0 +1,103 @@
+####################################
+# DATASETS (VERY IMPORTANT)
+####################################
+datasets/
+data/
+images/
+labels/
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# YOLO specific
+runs/
+wandb/
+*.pt
+*.onnx
+*.engine
+
+####################################
+# JUPYTER
+####################################
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+####################################
+# PYTHON
+####################################
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+####################################
+# VIRTUAL ENV
+####################################
+venv/
+env/
+ENV/
+.venv/
+
+####################################
+# IDE
+####################################
+.vscode/
+.idea/
+
+####################################
+# OS FILES
+####################################
+.DS_Store
+Thumbs.db
+
+####################################
+# LOGS
+####################################
+logs/
+*.log
+
+####################################
+# ENV FILES (SECRETS)
+####################################
+.env
+.env.*
+
+####################################
+# YOLO / TRAINING OUTPUTS
+####################################
+runs/detect/
+runs/segment/
+runs/classify/
+runs/train/
+
+# Ultralytics cache
+*.cache
+
+# Tensorboard
+tensorboard/
+events.out.tfevents.*
+
+# Prediction outputs
+predictions/
+output/
+inference/
+
+####################################
+# MODELS (KEEP ONLY FINAL IF NEEDED)
+####################################
+weights/
+models/
+checkpoints/
+
+# If you want to keep ONLY final models:
+# !models/best.pt
+####################################
+# ANNOTATIONS
+####################################
+*.txt.bak
+*.xml
+*.json.bak
+classes.txt
+obj.names
+
