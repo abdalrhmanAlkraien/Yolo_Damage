@@ -1,0 +1,57 @@
+########################################
+# CORE YOLO
+########################################
+ultralytics>=8.2.0
+
+########################################
+# PYTORCH (INSTALL BASED ON YOUR GPU)
+########################################
+torch
+torchvision
+torchaudio
+
+########################################
+# DATA & NUMERICAL
+########################################
+numpy
+pandas
+scipy
+
+########################################
+# COMPUTER VISION
+########################################
+opencv-python
+Pillow
+matplotlib
+seaborn
+
+########################################
+# AUGMENTATION (VERY IMPORTANT)
+########################################
+albumentations
+
+########################################
+# NOTEBOOK
+########################################
+jupyter
+ipykernel
+notebook
+
+########################################
+# UTILITIES
+########################################
+tqdm
+pyyaml
+requests
+
+########################################
+# EXPERIMENT TRACKING (Recommended)
+########################################
+tensorboard
+wandb
+
+########################################
+# OPTIONAL BUT STRONGLY RECOMMENDED
+########################################
+scikit-learn   # metrics
+psutil         # system monitoring
