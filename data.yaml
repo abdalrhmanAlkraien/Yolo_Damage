@@ -1,0 +1,27 @@
+path: datasets
+
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 19
+names:
+  0: back_bumper
+  1: back_glass
+  2: back_left_door
+  3: back_left_light
+  4: back_right_door
+  5: back_right_light
+  6: front_bumper
+  7: front_glass
+  8: front_left_door
+  9: front_left_light
+  10: front_right_door
+  11: front_right_light
+  12: hood
+  13: left_mirror
+  14: object
+  15: right_mirror
+  16: tailgate
+  17: trunk
+  18: wheel

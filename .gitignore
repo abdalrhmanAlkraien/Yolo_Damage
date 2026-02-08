@@ -2,7 +2,7 @@
 # DATASETS (VERY IMPORTANT)
 ####################################
 datasets/
-data/
+datasets/
 images/
 labels/
 *.zip
